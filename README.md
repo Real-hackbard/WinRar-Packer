@@ -42,7 +42,7 @@ RARLAB also offers a mobile version as freeware for Android under the name RAR f
     * [uuencoded files](https://en.wikipedia.org/wiki/Uuencoding), as well as split files
     * Some of [self-extracting archive](https://en.wikipedia.org/wiki/Self-extracting_archive) formats stored as .exe files
 * [Checksum](https://en.wikipedia.org/wiki/Checksum) (integrity) verification for ARJ, bzip2, Cabinet file, gzip, lzip, RAR, xz, ZIP and 7z archives
-Multithreaded CPU compression and decompression
+* [Multithreaded CPU](https://en.wikipedia.org/wiki/Simultaneous_multithreading) compression and decompression
 
 ### When creating RAR archives:
 * Support for maximum file size of 16 [EiB](https://en.wikipedia.org/wiki/Byte#Multiple-byte_units), about 1.8 × 1019 bytes or 18 million TB
