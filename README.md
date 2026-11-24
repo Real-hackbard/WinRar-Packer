@@ -66,8 +66,12 @@ Self-extracting files are used to share compressed files with a party that may n
 
 # :speech_balloon: Paramaters
 
-Example command : winrar.exe <command> -<Switches 1> -<Switches N> <Archive> <Files...>
-               <@File list files...> <Target directory path\>
+Example command : 
+
+```
+   winrar.exe <command> -<Switches 1> -<Switches N> <Archive> <Files...>
+         <@File list files...> <Target directory path\>
+```
 
 Character combination specifying the function to be performed by WinRAR. See the list of WinRAR commands
 
