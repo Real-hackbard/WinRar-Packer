@@ -65,6 +65,7 @@ Self-extracting files are used to share compressed files with a party that may n
 <br>
 
 # :speech_balloon: Paramaters
+Character combination specifying the function to be performed by WinRAR. See the list of WinRAR commands
 
 | Commands | Description |
 | :------------ | :------------ |
