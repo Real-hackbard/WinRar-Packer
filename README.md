@@ -61,3 +61,14 @@ A self-extracting archive (SFX or SEA) is a computer executable program which co
 <br><br>
 
 Self-extracting files are used to share compressed files with a party that may not have the software needed to decompress a regular archive. Users can also use self-extracting archives to distribute their own software. For example, the WinRAR installation program is made using the graphical GUI RAR self-extracting module Default.sfx. 
+
+<br>
+
+# :speech_balloon: Paramaters
+
+| Parameter | Description |
+| :------------ | :------------ |
+| ```a```     | Add files to an archive     |
+| ```c```     | Add archive comment     |
+
+
