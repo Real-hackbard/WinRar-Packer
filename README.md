@@ -162,27 +162,27 @@ Switches are used to define a specific type of operation, compression strength, 
 | ```-ow```	| process file security information |
 | ```-o[+/-]```	| set the overwrite mode |
 | ```-p[pwd]```	| set password |
-| -qo[-|+]	| add quick open information [none|force] |
-| -r	| recurse subfolders |
-| -r-	| disable recursion |
-| -r0	| recurse subfolders for wildcard names only |
-| -ri	| set priority and sleep time |
-| -rr[N]	| add data recovery record |
-| -rv[N]	| create recovery volumes |
-| -s	| create a solid archive |
-| -s<N>	| create solid groups using file count |
-| -sc<charset>[objects]	| specify the character set |
-| -se	| create solid groups using file extension |
-| -sfx[name]	| create self-extracting archive |
-| -sl<size>	| process files with size less than specified |
-| -sm<size>	| process files with size more than specified |
-| -sv	| create independent solid volumes |
-| -sv-	| create dependent solid volumes |
-| -s-	| disable solid archiving |
-| -t	| test files after archiving |
-| -ta<date>	| process files modified after the specified date |
-| -tb<date>	| process files modified before the specified date |
-| -tk	| keep original archive time |
+| ```-qo[-/+]```	| add quick open information [none|force] |
+| ```-r```	| recurse subfolders |
+| ```-r-```	| disable recursion |
+| ```-r0```	| recurse subfolders for wildcard names only |
+| ```-ri```	| set priority and sleep time |
+| ```-rr[N]```	| add data recovery record |
+| ```-rv[N]```	| create recovery volumes |
+| ```-s```	| create a solid archive |
+| ```-s<N>```	| create solid groups using file count |
+| ```-sc<charset>[objects]```	| specify the character set |
+| ```-se```	| create solid groups using file extension |
+| ```-sfx[name]```	| create self-extracting archive |
+| ```-sl<size>```	| process files with size less than specified |
+| ```-sm<size>```	| process files with size more than specified |
+| ```-sv```	| create independent solid volumes |
+| ```-sv-```	| create dependent solid volumes |
+| ```-s-```	| disable solid archiving |
+| ```-t```	| test files after archiving |
+| ```-ta<date>```	| process files modified after the specified date |
+| ```-tb<date>```	| process files modified before the specified date |
+| ```-tk```	| keep original archive time |
 | -tl	| set archive time to newest file |
 | -tn<time>	| process files newer than the specified time |
 | -to<time>	| process files older than the specified time |
