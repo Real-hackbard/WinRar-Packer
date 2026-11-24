@@ -65,6 +65,10 @@ Self-extracting files are used to share compressed files with a party that may n
 <br>
 
 # :speech_balloon: Paramaters
+
+Example command : winrar.exe <command> -<Switches 1> -<Switches N> <Archive> <Files...>
+               <@File list files...> <Target directory path\>
+
 Character combination specifying the function to be performed by WinRAR. See the list of WinRAR commands
 
 | Commands | Description |
@@ -91,5 +95,11 @@ Character combination specifying the function to be performed by WinRAR. See the
 | ```u```	| update files within an archive |
 | ```x```	| extract files from an archive with full paths |
 
+<br>
 
+Switches are used to define a specific type of operation, compression strength, type of archive, etc. See the list of WinRAR switches
+
+| Switches | Description |
+| :------------ | :------------ |
+| ```a```	| add files to an archive |
 
