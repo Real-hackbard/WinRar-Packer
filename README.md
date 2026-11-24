@@ -132,36 +132,36 @@ Switches are used to define a specific type of operation, compression strength, 
 | ```-ep3```	| expand paths to full including the drive letter |
 | ```-e[+]<attr>```	| set file exclude or include attributes |
 | ```-f```	| freshen files |
-| -hp[pwd]	| encrypt both file data and headers |
-| -ht[b|c]	| select hash type [BLAKE2,CRC32] for file checksum |
-| -iadm	| request administrative access for SFX archive |
-| -ibck	| run WinRAR in background |
-| -ieml[.][addr]	| send archive by email |
-| -iicon<name>	| specify SFX icon |
-| -iimg<name>	| specify SFX logo |
-| -ilog[name]	| log errors to file |
-| -inul	| disable error messages |
-| -ioff	| turn PC off |
-| -k	| lock archive |
-| -kb	| keep broken extracted files |
-| -log[fmt][=name]	| write names to log file |
-| -m<n>	| set compression method |
-| -ma[4|5]	| specify a version of archiving format |
-| -mc<par>	| set advanced compression parameters |
-| -md<n>	| select dictionary size |
-| -ms[list]	| specify file types to store |
-| -mt<threads>	| set the number of threads |
-| -n<file>	| additionally filter included files |
-| -n@<listfile>	| read additional filter masks from list file |
-| -oc	| set NTFS "Compressed" attribute |
-| -oh	| save hard links as the link instead of the file |
-| -oi[-]	| save identical files as references |
-| -ol	| save symbolic links as the link instead of the file |
-| -or	| rename files automatically |
-| -os	| save NTFS streams |
-| -ow	| process file security information |
-| -o[+|-]	| set the overwrite mode |
-| -p[pwd]	| set password |
+| ```-hp[pwd]```	| encrypt both file data and headers |
+| ```-ht[b/c]```	| select hash type [BLAKE2,CRC32] for file checksum |
+| ```-iadm```	| request administrative access for SFX archive |
+| ```-ibck```	| run WinRAR in background |
+| ```-ieml[.][addr]```	| send archive by email |
+| ```-iicon<name>```	| specify SFX icon |
+| ```-iimg<name>```	| specify SFX logo |
+| ```-ilog[name]```	| log errors to file |
+| ```-inul```	| disable error messages |
+| ```-ioff```	| turn PC off |
+| ```-k```	| lock archive |
+| ```-kb```	| keep broken extracted files |
+| ```-log[fmt][=name]```	| write names to log file |
+| ```-m<n>```	| set compression method |
+| ```-ma[4/5]```	| specify a version of archiving format |
+| ```-mc<par>```	| set advanced compression parameters |
+| ```-md<n>```	| select dictionary size |
+| ```-ms[list]```	| specify file types to store |
+| ```-mt<threads>```	| set the number of threads |
+| ```-n<file>```	| additionally filter included files |
+| ```-n@<listfile>```	| read additional filter masks from list file |
+| ```-oc```	| set NTFS "Compressed" attribute |
+| ```-oh```	| save hard links as the link instead of the file |
+| ```-oi[-]```	| save identical files as references |
+| ```-ol```	| save symbolic links as the link instead of the file |
+| ```-or```	| rename files automatically |
+| ```-os```	| save NTFS streams |
+| ```-ow```	| process file security information |
+| ```-o[+/-]```	| set the overwrite mode |
+| ```-p[pwd]```	| set password |
 | -qo[-|+]	| add quick open information [none|force] |
 | -r	| recurse subfolders |
 | -r-	| disable recursion |
