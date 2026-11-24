@@ -36,9 +36,9 @@ RARLAB also offers a mobile version as freeware for Android under the name RAR f
 * Unpacking of
     * RAR, tar, ARJ, LHA, ZIP (and its subsed JAR) and WinZip ZIPX archives
     * [Windows Cabinet files](https://en.wikipedia.org/wiki/Cabinet_(file_format)) (.CAB)
-    * ISO 9660 optical disk images
-    * Unix compress (.Z), gzip, bzip2, lzip, xz, 7z and zstandard compressed files
-    * uuencoded files, as well as split files
+    * [ISO 9660](https://en.wikipedia.org/wiki/ISO_9660)) optical disk images
+    * [Unix compress](https://en.wikipedia.org/wiki/Compress_(software)) (.Z), gzip, bzip2, lzip, xz, 7z and zstandard compressed files
+    * [uuencoded files](https://en.wikipedia.org/wiki/Uuencoding), as well as split files
     * Some of self-extracting archive formats stored as .exe files
 
 
