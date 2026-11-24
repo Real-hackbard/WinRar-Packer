@@ -105,5 +105,97 @@ Switches are used to define a specific type of operation, compression strength, 
 
 | Switches | Description |
 | :------------ | :------------ |
-| ```a```	| add files to an archive |
+| --	| stop switches scanning |
+| -@[+]	| disable [enable] file lists |
+| -ac	| clear Archive attribute after compression or extraction |
+| -ad	| append archive name to destination path |
+| -af<type>	| specify archive format |
+| -ag[format]	| generate archive name using the current date and time |
+| -ai	| ignore file attributes |
+| -ao	| add files with Archive attribute set |
+| -ap<path>	| set path inside archive |
+| -as	| synchronize archive contents |
+| -cfg-	| ignore default profile and environment variable |
+| -cl	| convert file names to lower case |
+| -cp<name>	| select a compression profile |
+| -cu	| convert file names to upper case |
+| -df	| delete files after archiving |
+| -dh	| open shared files |
+| -dr	| delete files to Recycle Bin |
+| -ds	| do not sort archiving files |
+| -dw	| wipe files after archiving |
+| -ed	| do not add empty folders |
+| -en	| do not add "end of archive" block |
+| -ep	| exclude paths from names |
+| -ep1	| exclude base folder from names |
+| -ep2	| expand paths to full |
+| -ep3	| expand paths to full including the drive letter |
+| -e[+]<attr>	| set file exclude or include attributes |
+| -f	| freshen files |
+| -hp[pwd]	| encrypt both file data and headers |
+| -ht[b|c]	| select hash type [BLAKE2,CRC32] for file checksum |
+| -iadm	| request administrative access for SFX archive |
+| -ibck	| run WinRAR in background |
+| -ieml[.][addr]	| send archive by email |
+| -iicon<name>	| specify SFX icon |
+| -iimg<name>	| specify SFX logo |
+| -ilog[name]	| log errors to file |
+| -inul	| disable error messages |
+| -ioff	| turn PC off |
+| -k	| lock archive |
+| -kb	| keep broken extracted files |
+| -log[fmt][=name]	| write names to log file |
+| -m<n>	| set compression method |
+| -ma[4|5]	| specify a version of archiving format |
+| -mc<par>	| set advanced compression parameters |
+| -md<n>	| select dictionary size |
+| -ms[list]	| specify file types to store |
+| -mt<threads>	| set the number of threads |
+| -n<file>	| additionally filter included files |
+| -n@<listfile>	| read additional filter masks from list file |
+| -oc	| set NTFS "Compressed" attribute |
+| -oh	| save hard links as the link instead of the file |
+| -oi[-]	| save identical files as references |
+| -ol	| save symbolic links as the link instead of the file |
+| -or	| rename files automatically |
+| -os	| save NTFS streams |
+| -ow	| process file security information |
+| -o[+|-]	| set the overwrite mode |
+| -p[pwd]	| set password |
+| -qo[-|+]	| add quick open information [none|force] |
+| -r	| recurse subfolders |
+| -r-	| disable recursion |
+| -r0	| recurse subfolders for wildcard names only |
+| -ri	| set priority and sleep time |
+| -rr[N]	| add data recovery record |
+| -rv[N]	| create recovery volumes |
+| -s	| create a solid archive |
+| -s<N>	| create solid groups using file count |
+| -sc<charset>[objects]	| specify the character set |
+| -se	| create solid groups using file extension |
+| -sfx[name]	| create self-extracting archive |
+| -sl<size>	| process files with size less than specified |
+| -sm<size>	| process files with size more than specified |
+| -sv	| create independent solid volumes |
+| -sv-	| create dependent solid volumes |
+| -s-	| disable solid archiving |
+| -t	| test files after archiving |
+| -ta<date>	| process files modified after the specified date |
+| -tb<date>	| process files modified before the specified date |
+| -tk	| keep original archive time |
+| -tl	| set archive time to newest file |
+| -tn<time>	| process files newer than the specified time |
+| -to<time>	| process files older than the specified time |
+| -ts<m,c,a>	| save or restore file time (modification, creation, access) |
+| -u	| update files |
+| -v<n>[k|b|f|m|M|g|G]	| create volumes |
+| -vd	| erase disk contents before creating volume |
+| -ver[n]	| file version control |
+| -vn	| use the old style volume naming scheme |
+| -vp	| pause before each volume |
+| -w<path>	| set folder for temporary files |
+| -x<file>	| exclude the specified file |
+| -x@<listfile>	| exclude files listed in the specified list file |
+| -y	| assume Yes on all queries |
+| -z<file>	| read archive comment from file |
 
