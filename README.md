@@ -183,19 +183,19 @@ Switches are used to define a specific type of operation, compression strength, 
 | ```-ta<date>```	| process files modified after the specified date |
 | ```-tb<date>```	| process files modified before the specified date |
 | ```-tk```	| keep original archive time |
-| -tl	| set archive time to newest file |
-| -tn<time>	| process files newer than the specified time |
-| -to<time>	| process files older than the specified time |
-| -ts<m,c,a>	| save or restore file time (modification, creation, access) |
-| -u	| update files |
-| -v<n>[k|b|f|m|M|g|G]	| create volumes |
-| -vd	| erase disk contents before creating volume |
-| -ver[n]	| file version control |
-| -vn	| use the old style volume naming scheme |
-| -vp	| pause before each volume |
-| -w<path>	| set folder for temporary files |
-| -x<file>	| exclude the specified file |
-| -x@<listfile>	| exclude files listed in the specified list file |
-| -y	| assume Yes on all queries |
-| -z<file>	| read archive comment from file |
+| ```-tl```	| set archive time to newest file |
+| ```-tn<time>```	| process files newer than the specified time |
+| ```-to<time>```	| process files older than the specified time |
+| ```-ts<m,c,a>```	| save or restore file time (modification, creation, access) |
+| ```-u```	| update files |
+| ```-v<n>[k/b/f/m/M/g/G]```	| create volumes |
+| ```-vd```	| erase disk contents before creating volume |
+| ```-ver[n]```	| file version control |
+| ```-vn```	| use the old style volume naming scheme |
+| ```-vp```	| pause before each volume |
+| ```-w<path>```	| set folder for temporary files |
+| ```-x<file>```	| exclude the specified file |
+| ```-x@<listfile>```	| exclude files listed in the specified list file |
+| ```-y```	| assume Yes on all queries |
+| ```-z<file>```	| read archive comment from file |
 
