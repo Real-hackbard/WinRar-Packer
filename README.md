@@ -66,9 +66,29 @@ Self-extracting files are used to share compressed files with a party that may n
 
 # :speech_balloon: Paramaters
 
-| Parameter | Description |
+| Commands | Description |
 | :------------ | :------------ |
-| ```a```     | Add files to an archive     |
-| ```c```     | Add archive comment     |
+| a	| add files to an archive |
+| c	| add an archive comment |
+| ch	| change archive parameters |
+| cv	| convert archives |
+| cw	| write an archive comment to file |
+| d	| delete files from an archive |
+| e	| extract files from an archive, ignoring paths |
+| f	| freshen files within an archive |
+| i	| find string in archives |
+| k	| lock an archive |
+| m	| move files and folders to an archive |
+| r	| repair a damaged archive |
+| rc	| reconstruct missing volumes |
+| rn	| rename archived files |
+| rr[N]	| add data recovery record |
+| rv[N]	| create recovery volumes |
+| s[name]	| convert an archive to a self-extracting type |
+| s-	| remove SFX module |
+| t	| test archive files |
+| u	| update files within an archive |
+| x	| extract files from an archive with full paths |
+
 
 
