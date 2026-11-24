@@ -105,33 +105,33 @@ Switches are used to define a specific type of operation, compression strength, 
 
 | Switches | Description |
 | :------------ | :------------ |
-| --	| stop switches scanning |
-| -@[+]	| disable [enable] file lists |
-| -ac	| clear Archive attribute after compression or extraction |
-| -ad	| append archive name to destination path |
-| -af<type>	| specify archive format |
-| -ag[format]	| generate archive name using the current date and time |
-| -ai	| ignore file attributes |
-| -ao	| add files with Archive attribute set |
-| -ap<path>	| set path inside archive |
-| -as	| synchronize archive contents |
-| -cfg-	| ignore default profile and environment variable |
-| -cl	| convert file names to lower case |
-| -cp<name>	| select a compression profile |
-| -cu	| convert file names to upper case |
-| -df	| delete files after archiving |
-| -dh	| open shared files |
-| -dr	| delete files to Recycle Bin |
-| -ds	| do not sort archiving files |
-| -dw	| wipe files after archiving |
-| -ed	| do not add empty folders |
-| -en	| do not add "end of archive" block |
-| -ep	| exclude paths from names |
-| -ep1	| exclude base folder from names |
-| -ep2	| expand paths to full |
-| -ep3	| expand paths to full including the drive letter |
-| -e[+]<attr>	| set file exclude or include attributes |
-| -f	| freshen files |
+| ```--```	| stop switches scanning |
+| ```-@[+]```	| disable [enable] file lists |
+| ```-ac```	| clear Archive attribute after compression or extraction |
+| ```-ad```	| append archive name to destination path |
+| ```-af<type>```	| specify archive format |
+| ```-ag[format]```	| generate archive name using the current date and time |
+| ```-ai```	| ignore file attributes |
+| ```-ao```	| add files with Archive attribute set |
+| ```-ap<path>```	| set path inside archive |
+| ```-as```	| synchronize archive contents |
+| ```-cfg-```	| ignore default profile and environment variable |
+| ```-cl```	| convert file names to lower case |
+| ```-cp<name>```	| select a compression profile |
+| ```-cu```	| convert file names to upper case |
+| ```-df```	| delete files after archiving |
+| ```-dh```	| open shared files |
+| ```-dr```	| delete files to Recycle Bin |
+| ```-ds```	| do not sort archiving files |
+| ```-dw```	| wipe files after archiving |
+| ```-ed```	| do not add empty folders |
+| ```-en```	| do not add "end of archive" block |
+| ```-ep```	| exclude paths from names |
+| ```-ep1```	| exclude base folder from names |
+| ```-ep2```	| expand paths to full |
+| ```-ep3```	| expand paths to full including the drive letter |
+| ```-e[+]<attr>```	| set file exclude or include attributes |
+| ```-f```	| freshen files |
 | -hp[pwd]	| encrypt both file data and headers |
 | -ht[b|c]	| select hash type [BLAKE2,CRC32] for file checksum |
 | -iadm	| request administrative access for SFX archive |
