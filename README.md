@@ -41,7 +41,7 @@ RARLAB also offers a mobile version as freeware for Android under the name RAR f
     * [Unix compress](https://en.wikipedia.org/wiki/Compress_(software)) (.Z), gzip, bzip2, lzip, xz, 7z and zstandard compressed files
     * [uuencoded files](https://en.wikipedia.org/wiki/Uuencoding), as well as split files
     * Some of [self-extracting archive](https://en.wikipedia.org/wiki/Self-extracting_archive) formats stored as .exe files
-* Checksum (integrity) verification for ARJ, bzip2, Cabinet file, gzip, lzip, RAR, xz, ZIP and 7z archives
+* [Checksum](https://en.wikipedia.org/wiki/Checksum) (integrity) verification for ARJ, bzip2, Cabinet file, gzip, lzip, RAR, xz, ZIP and 7z archives
 Multithreaded CPU compression and decompression
 
 ### When creating RAR archives:
