@@ -49,3 +49,13 @@ RARLAB also offers a mobile version as freeware for Android under the name RAR f
 * Compression dictionary from 1 MiB to 64 GiB (it is limited to 256 MiB on 32-bit editions, although 32-bit editions still can decompress archives with 1 GiB dictionary; default size is 32 MiB)
 * Optional 256-bit [BLAKE2](https://en.wikipedia.org/wiki/BLAKE_(hash_function)#BLAKE2) file hashing that can replace the default 32-bit [CRC-32](https://en.wikipedia.org/wiki/Cyclic_redundancy_check) file checksum
 
+# :wrench: Self-extracting archive
+A self-extracting archive (SFX or SEA) is a computer executable program which combines compressed data in an [archive file](https://en.wikipedia.org/wiki/Archive_file) with machine-executable code to extract the information. Running on a compatible operating system, it does not need a suitable extractor in the target computer to extract the data. The executable part of the file is known as a [decompressor stub](https://en.wikipedia.org/wiki/Method_stub).
+
+<br>
+
+<img width="523" height="396" alt="self-extract" src="https://github.com/user-attachments/assets/cfc027f7-6089-4a7a-bd82-b2335b0e2004" />
+
+<br><br>
+
+Self-extracting files are used to share compressed files with a party that may not have the software needed to decompress a regular archive. Users can also use self-extracting archives to distribute their own software. For example, the WinRAR installation program is made using the graphical GUI RAR self-extracting module Default.sfx. 
