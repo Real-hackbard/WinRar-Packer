@@ -30,6 +30,15 @@ RARLAB also offers a mobile version as freeware for Android under the name RAR f
 
 <br><br>
 
-
+# ::wrench:: Features:
+* Creation of packed RAR or ZIP archives.
+* Ability to create self-extracting files (multi-volume self-extracting archives are supported; the self-extractor can execute commands, such as running a specified program before or after self-extraction
+* Unpacking of
+    * RAR, tar, ARJ, LHA, ZIP (and its subsed JAR) and WinZip ZIPX archives
+    * [Windows Cabinet files](https://en.wikipedia.org/wiki/Cabinet_(file_format)) (.CAB)
+    * ISO 9660 optical disk images
+    * Unix compress (.Z), gzip, bzip2, lzip, xz, 7z and zstandard compressed files
+    * uuencoded files, as well as split files
+    * Some of self-extracting archive formats stored as .exe files
 
 
