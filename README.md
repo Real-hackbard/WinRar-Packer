@@ -47,5 +47,5 @@ RARLAB also offers a mobile version as freeware for Android under the name RAR f
 ### When creating RAR archives:
 * Support for maximum file size of 16 [EiB](https://en.wikipedia.org/wiki/Byte#Multiple-byte_units), about 1.8 × 1019 bytes or 18 million TB
 * Compression dictionary from 1 MiB to 64 GiB (it is limited to 256 MiB on 32-bit editions, although 32-bit editions still can decompress archives with 1 GiB dictionary; default size is 32 MiB)
-* Optional 256-bit BLAKE2 file hashing that can replace the default 32-bit CRC-32 file checksum
+* Optional 256-bit [BLAKE2](https://en.wikipedia.org/wiki/BLAKE_(hash_function)#BLAKE2) file hashing that can replace the default 32-bit [CRC-32](https://en.wikipedia.org/wiki/Cyclic_redundancy_check) file checksum
 
