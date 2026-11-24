@@ -35,7 +35,7 @@ RARLAB also offers a mobile version as freeware for Android under the name RAR f
 * Creation of packed RAR or ZIP archives.
 * Ability to create self-extracting files (multi-volume self-extracting archives are supported; the self-extractor can execute commands, such as running a specified program before or after self-extraction
 * Unpacking of
-    * RAR, tar, ARJ, LHA, ZIP (and its subsed JAR) and WinZip ZIPX archives
+    * [RAR](https://en.wikipedia.org/wiki/RAR_(file_format)), [tar](https://en.wikipedia.org/wiki/Tar_(computing)), [ARJ](https://en.wikipedia.org/wiki/ARJ), [LHA](https://en.wikipedia.org/wiki/LHA_(file_format)), [ZIP](https://en.wikipedia.org/wiki/ZIP_(file_format)) (and its subsed [JAR](https://en.wikipedia.org/wiki/JAR_(file_format))) and [WinZip ZIPX](https://en.wikipedia.org/wiki/WinZip) archives
     * [Windows Cabinet files](https://en.wikipedia.org/wiki/Cabinet_(file_format)) (.CAB)
     * [ISO 9660](https://en.wikipedia.org/wiki/ISO_9660)) optical disk images
     * [Unix compress](https://en.wikipedia.org/wiki/Compress_(software)) (.Z), gzip, bzip2, lzip, xz, 7z and zstandard compressed files
