@@ -30,7 +30,7 @@ RARLAB also offers a mobile version as freeware for Android under the name RAR f
 
 <br><br>
 
-# ::wrench:: Features:
+# :wrench: Features:
 * Creation of packed RAR or ZIP archives.
 * Ability to create self-extracting files (multi-volume self-extracting archives are supported; the self-extractor can execute commands, such as running a specified program before or after self-extraction
 * Unpacking of
