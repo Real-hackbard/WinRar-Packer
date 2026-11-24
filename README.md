@@ -30,7 +30,8 @@ RARLAB also offers a mobile version as freeware for Android under the name RAR f
 
 <br><br>
 
-# :wrench: Features:
+# :wrench: Features
+### Unpacking
 * Creation of packed RAR or ZIP archives.
 * Ability to create self-extracting files (multi-volume self-extracting archives are supported; the self-extractor can execute commands, such as running a specified program before or after self-extraction
 * Unpacking of
@@ -40,5 +41,11 @@ RARLAB also offers a mobile version as freeware for Android under the name RAR f
     * [Unix compress](https://en.wikipedia.org/wiki/Compress_(software)) (.Z), gzip, bzip2, lzip, xz, 7z and zstandard compressed files
     * [uuencoded files](https://en.wikipedia.org/wiki/Uuencoding), as well as split files
     * Some of [self-extracting archive](https://en.wikipedia.org/wiki/Self-extracting_archive) formats stored as .exe files
+* Checksum (integrity) verification for ARJ, bzip2, Cabinet file, gzip, lzip, RAR, xz, ZIP and 7z archives
+Multithreaded CPU compression and decompression
 
+### When creating RAR archives:
+* Support for maximum file size of 16 [EiB](https://en.wikipedia.org/wiki/Byte#Multiple-byte_units), about 1.8 × 1019 bytes or 18 million TB
+* Compression dictionary from 1 MiB to 64 GiB (it is limited to 256 MiB on 32-bit editions, although 32-bit editions still can decompress archives with 1 GiB dictionary; default size is 32 MiB)
+* Optional 256-bit BLAKE2 file hashing that can replace the default 32-bit CRC-32 file checksum
 
